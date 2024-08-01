@@ -6,7 +6,7 @@ from configs import *
 import requests
 from locations import *
 
-WEBSOCKET_URL = 'https://checkbot-webhook.onrender.com'
+WEBSOCKET_URL = 'https://checkbot.org:5000/'
 
 bot = Bot(token=API_TOKEN,)
 dp = Dispatcher(bot)
